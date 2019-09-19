@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CanvasTuts</string>
+    <string name="switch_to_one_view">Switch to one view</string>
+    <string name="switch_to_5_views">Switch to 5 views</string>
+</resources>
