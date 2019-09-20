@@ -26,7 +26,7 @@ public class CustomView5k extends View {
     private int mHalfWidthRect;
     private int mHalfHeightRect;
     private Drawable drawable;
-    private final int LIMIT = 150000;
+    private final int LIMIT = 5000;
 
     public CustomView5k(Context context) {
         super(context);

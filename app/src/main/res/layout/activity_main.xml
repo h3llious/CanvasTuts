@@ -1,59 +1,64 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"-->
+<?xml version="1.0" encoding="utf-8"?><!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"-->
 <!--    android:layout_width="match_parent"-->
 <!--    android:layout_height="match_parent">-->
 
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
 
-        <!--    <com.blacksun.canvastuts.CustomView-->
-        <!--        android:layout_width="match_parent"-->
-        <!--        android:layout_height="match_parent"-->
-        <!--        app:layout_constraintStart_toStartOf="parent"-->
-        <!--        app:layout_constraintTop_toTopOf="parent" />-->
+    <!--    <com.blacksun.canvastuts.CustomView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent" />-->
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <com.blacksun.canvastuts.CustomView5k
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-    </ScrollView>
-
-<!--                <com.blacksun.canvastuts.CustomView1k-->
-<!--                    android:id="@+id/custom1"-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="wrap_content" />-->
-
-<!--                <com.blacksun.canvastuts.CustomView1k-->
-<!--                    android:id="@+id/custom2"-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:layout_below="@id/custom1" />-->
-
-<!--                <com.blacksun.canvastuts.CustomView1k-->
-<!--                    android:id="@+id/custom3"-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:layout_below="@id/custom2" />-->
-
-<!--                <com.blacksun.canvastuts.CustomView1k-->
-<!--                    android:id="@+id/custom4"-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:layout_below="@id/custom3" />-->
-
-<!--                <com.blacksun.canvastuts.CustomView1k-->
-<!--                    android:id="@+id/custom5"-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:layout_below="@id/custom4" />-->
     <Button
         android:id="@+id/btn_switch_to_5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/switch_to_5_views"
-        android:layout_alignParentEnd="true"/>
-    </RelativeLayout>
-<!--</ScrollView>-->
+        android:layout_alignParentEnd="true"
+        android:text="@string/switch_to_5_views" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.blacksun.canvastuts.CustomView5k
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <com.blacksun.canvastuts.CustomView1k-->
+<!--                android:id="@+id/custom2"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@id/custom1" />-->
+
+<!--            <com.blacksun.canvastuts.CustomView1k-->
+<!--                android:id="@+id/custom3"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@id/custom2" />-->
+
+<!--            <com.blacksun.canvastuts.CustomView1k-->
+<!--                android:id="@+id/custom4"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@id/custom3" />-->
+
+<!--            <com.blacksun.canvastuts.CustomView1k-->
+<!--                android:id="@+id/custom5"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@id/custom4" />-->
+
+<!--            <com.blacksun.canvastuts.CustomView1k-->
+<!--                android:id="@+id/custom1"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content" />-->
+<!--        </RelativeLayout>-->
+    </ScrollView>
+</RelativeLayout><!--</ScrollView>-->
