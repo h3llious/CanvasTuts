@@ -13,9 +13,13 @@
         <!--        app:layout_constraintStart_toStartOf="parent"-->
         <!--        app:layout_constraintTop_toTopOf="parent" />-->
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
         <com.blacksun.canvastuts.CustomView5k
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
+    </ScrollView>
 
 <!--                <com.blacksun.canvastuts.CustomView1k-->
 <!--                    android:id="@+id/custom1"-->
